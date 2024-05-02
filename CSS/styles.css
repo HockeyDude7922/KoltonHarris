@@ -10,8 +10,8 @@ body, html {
 
   .profile-img {
     border-radius: 50%; /* Makes the image circular */
-    width: 200px; /* Adjust the size of the image */
-    height: 200px; /* Adjust the size of the image */
+    width: 250px; /* Adjust the size of the image */
+    height: 250px; /* Adjust the size of the image */
   }
 
   .container {
@@ -20,13 +20,13 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ensure the container takes up the full viewport height */
-    margin-top: -70px;
+    margin-top: 15px;
   }
 
   .link-img {
     border-radius: 50%; /* Makes the image circular */
-    width: 50px; /* Adjust the size of the image */
-    height: 50px; /* Adjust the size of the image */
+    width: 65px; /* Adjust the size of the image */
+    height: 65px; /* Adjust the size of the image */
   }
   
   .txt-center {
@@ -39,4 +39,26 @@ body, html {
     border-radius: 10px; /* Rounded corners */
     padding: 10px; /* Padding inside the box */
   }
+
+  .image-container:hover .note {
+    opacity: 1; /* Show the note when hovering over the image */
+  }
+
+  .link-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px; /* Adjust margin between each link and its text */
+  }
+
+  .link-container h3 {
+    margin-top: 5px; /* Adjust vertical spacing between image and text */
+    margin-bottom: 0; /* Remove default margin */
+  }
+
   
